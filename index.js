@@ -5,6 +5,15 @@ function render(){
   var link=prompt("⚡Enter Link make sure not / in end");
   var name = link;
   var ch = prompt("⚡Enter Chapter Number");
+
+  if(!name){
+    name ="the-thorn-that-pierces-me");
+  }
+  if (!ch){
+    ch=1;
+  }
+
+
   name = name.substring(28, name.length - 0);
   
   document.getElementById("name").innerHTML = `Displaying ${name} Chapter ${ch}`
