@@ -7,7 +7,7 @@ function render(){
   var ch = prompt("⚡Enter Chapter Number");
 
   if(!name){
-    name ="the-thorn-that-pierces-me");
+    name ="the-thorn-that-pierces-me";
   }
   if (!ch){
     ch=1;
