@@ -1,11 +1,11 @@
 function render(){
 
-  alert("🧯Go to https://mangakomi.com and copy manga link");
-  alert("🧯Example : https://mangakomi.com/manga/the-thorn-that-pierces-me");
-  var link=prompt("⚡Enter Link Manga");
+  alert("🧯Go to https://mangakomi.com and copy chapter link");
+  alert("🧯Example : https://mangakomi.com/manga/the-thorn-that-pierces-me/chapter-1/");
+  var link=prompt("⚡Enter Link make sure not / in end");
   var name = link;
   var ch = prompt("⚡Enter Chapter Number");
-  name = name.substring(28, name.length - 11);
+  name = name.substring(28, name.length - 0);
   
   document.getElementById("name").innerHTML = `Displaying ${name} Chapter ${ch}`
 
