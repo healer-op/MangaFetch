@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color:white;
+}
+
+#root img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    margin-bottom: 2vh;
+}
+
+body{
+    background: linear-gradient(rgba(8, 8, 8, .5), rgba(0, 0, 0, 0.699)), url(https://wallpapercave.com/wp/wp6590623.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#name{
+    font-size: 20px;
+}
