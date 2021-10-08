@@ -9,7 +9,7 @@ function render(){
   ch = ch.slice(-2);
   ch = ch.substring(0, ch.length - 1);
   
-  document.getElementById("name").innerHTML = `Displaying ${name1} Chapter ${ch}`
+  document.getElementById("name").innerHTML = `Displaying ${name} Chapter ${ch}`
 
 fetch(`https://mapi.mrhealer.repl.co/api/${name}/${ch}`)
 .then(res=> res.json())
