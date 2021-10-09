@@ -1,19 +1,13 @@
 function render(){
 
-  alert("🧯Go to https://mangakomi.com and copy chapter link");
-  alert("🧯Example : https://mangakomi.com/manga/the-thorn-that-pierces-me");
-  var link=prompt("⚡Enter Link make sure not / in end");
-  var name = link;
-  var ch = prompt("⚡Enter Chapter Number");
-  if(name){
-     name = name.substring(28, name.length - 0);
-  }
-  else{
+  var link=prompt("⚡Enter Manga Name");
+  var link = link.replace(` `, "-");
+  var name = link.toLowerCase();
+  if(!name){
     name ="the-thorn-that-pierces-me";
   }
-  if (!ch){
-    ch=1;
-  }
+  var ch = prompt("⚡Enter Chapter Number");
+  alert("🧯We Scrape Data from MangaKomi");
   
   document.getElementById("name").innerHTML = `Displaying ${name} Chapter ${ch}`
 
