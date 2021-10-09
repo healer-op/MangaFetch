@@ -26,7 +26,7 @@ fetch(`https://mapi.mrhealer.repl.co/api/${name}/${ch}`)
       elem.setAttribute("src", img[i]);
       elem.setAttribute("width", "720");
       elem.setAttribute("alt", "healdb");
-      base.setAttribute("id", "healdb");
+      elem.setAttribute("id", "healdb");
       document.getElementById("root").appendChild(elem);
       var elem1 = document.createElement("br");
       document.getElementById("root").appendChild(elem1);
